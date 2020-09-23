@@ -4,14 +4,15 @@
 
 # Copyright: (c) 2020 Chip Copper <chip.copper@broadcom.com>
 # GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
+# Version 1.0-9.23.20.1
 
 import json
 import requests
 import urllib3
 
 # Update these to point to a SANnav server
-SANNAV_IP_ADDRESS = "10.155.2.143"
-SANNAV_FOS_USERNAME = "cc"
+SANNAV_IP_ADDRESS = "10.1.2.3"
+SANNAV_FOS_USERNAME = "admin"
 SANNAV_FOS_PASSWORD = "password"
 
 # Execute the retrieval of the fabric/switch information
